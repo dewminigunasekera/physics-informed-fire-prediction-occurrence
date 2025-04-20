@@ -13,7 +13,7 @@ This project builds a **physics-informed machine learning model** to detect and 
   Main notebook containing full pipeline from raw data to model evaluation.
 
 - **Required Data File**:
-  `Cleaned_Algerian_Forest_Fire_Data.csv` (from UCI Machine Learning Repository)
+  `Cleaned_Algerian_Forest_Fire_Data.csv` (available in the repository, it is a cleaned version of 'algerian+forest+fires+dataset' from UCI Machine Learning Repository)
 
 ## ⚙️ Instructions
 
@@ -27,7 +27,6 @@ This project builds a **physics-informed machine learning model** to detect and 
 
 ## 📊 Model Highlights
 
-- Derives `BUI` and `FWI` using known fire index equations
 - Applies cluster-based latent inputs
 - Learns propagation likelihood from structured correlations
 - Recall on fire occurrence: **1.00** (100%)  
@@ -48,7 +47,6 @@ This study is based on the **Algerian Forest Fires Dataset**
 📥 [Available via UCI Repository](https://archive.ics.uci.edu/ml/datasets/Algerian+Forest+Fires+Dataset+)
 
 The dataset includes meteorological and fire data from two regions in Algeria (Sidi-Bel Abbes and Bejaia) between June and September 2012.  
-All transformations, cleaning, and derived variables (e.g., `BUI`, `FWI`) are included in the cleaned version:  
 ➤ `Cleaned_Algerian_Forest_Fire_Data.csv`
 
 ---
