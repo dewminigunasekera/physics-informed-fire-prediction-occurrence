@@ -40,4 +40,29 @@ MIT License — you are free to reuse, extend, or build upon this work.
 ---
 
 **Scientific Note**:  
-This stage focuses only on **binary fire occurrence**. Future stages may expand to **fire spread modeling**, rate prediction, or geographic simulation.
+This stage focuses only on **binary fire occurrence**. Future stages may expand to **fire spread modeling**, rate prediction, or geographic simulation.---
+
+## 📦 Dataset Acknowledgment
+
+This study is based on the **Algerian Forest Fires Dataset**  
+📥 [Available via UCI Repository](https://archive.ics.uci.edu/ml/datasets/Algerian+Forest+Fires+Dataset+)
+
+The dataset includes meteorological and fire data from two regions in Algeria (Sidi-Bel Abbes and Bejaia) between June and September 2012.  
+All transformations, cleaning, and derived variables (e.g., `BUI`, `FWI`) are included in the cleaned version:  
+➤ `Cleaned_Algerian_Forest_Fire_Data.csv`
+
+---
+
+## 📖 Citation
+
+If you use this repository or model in academic work:
+
+```
+@misc{dewmini2025firestage1,
+  title={Physics-Informed Fire Prediction – Stage 1: Fire Occurrence},
+  author={Dewmini Gunasekera},
+  year={2025},
+  note={GitHub repository},
+  url={https://github.com/dewminigunasekera/physics-informed-fire-prediction-occurrence}
+}
+```
