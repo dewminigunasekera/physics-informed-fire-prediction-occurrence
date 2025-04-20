@@ -6,11 +6,11 @@
 
 ## 📄 Abstract
 
-This project investigates the mechanisms of forest fire occurrence using a physics-aligned machine learning approach. By leveraging physical variables such as ISI, FFMC, DMC, DC, and derived fire indices like BUI and FWI, we construct a neural network that respects the principles of fire propagation.
+This project investigates the mechanisms of forest fire occurrence using a physics-aligned machine learning approach. By leveraging physical variables such as ISI, FFMC, DMC, DC, BUI and FWI, we construct a neural network that respects the principles of fire propagation.
 
 The model introduces two latent dimensions—**Positive_Cluster** and **Negative_Cluster**—generated through unsupervised KMeans clustering. These clusters represent aggregated fire-spread accelerators and suppressors. Variables are filtered based on their correlation to fire occurrence (|r| > 0.3), and the model is trained on this reduced feature set for better interpretability and physical alignment.
 
-Experiments show that on structured datasets like the Algerian fire dataset, the model achieves **perfect classification (1.00 precision/recall)**. When applied to the UCI Cleaned_Algerian_Forest_Fire_Data.csv dataset, the model maintains high fire recall despite noisier inputs, underscoring the importance of structural physical data in fire modeling.
+This model achieves **perfect classification (1.00 precision/recall)** when applied to the UCI Cleaned_Algerian_Forest_Fire_Data.csv dataset, the model maintains high fire recall despite noisier inputs, underscoring the importance of structural physical data in fire modeling.
 
 ## ✅ Conclusion
 
