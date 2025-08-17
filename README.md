@@ -29,8 +29,7 @@ This project builds a **physics-informed machine learning model** to detect and 
 
 - Applies cluster-based latent inputs
 - Learns propagation likelihood from structured correlations
-- Recall on fire occurrence: **1.00** (100%)  
-  Accuracy: **up to 96%** on Algerian data; **~55%** on UCI
+- Accuracy on fire occurrence: **1.00** (100%)  
 
 ## 📄 License
 
